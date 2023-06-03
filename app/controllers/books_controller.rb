@@ -52,5 +52,5 @@ before_action :authenticate_user!
     unless @book.user == current_user
       redirect_to books_path
     end
-   end
+  end
 end
